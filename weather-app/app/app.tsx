@@ -264,7 +264,7 @@ export default function App() {
 
             {/* Forecast */}
             <View style={styles.forecastContainer}>
-              <Text style={styles.forecastTitle}>5-Day Forecast</Text>
+              <Text style={styles.forecastTitle}>Next 5-Day Forecast</Text>
               {forecastData.map((forecast, index) => (
                 <View key={index} style={styles.forecastItem}>
                   <Text style={styles.forecastDay}>{formatDate(forecast.dt)}</Text>
